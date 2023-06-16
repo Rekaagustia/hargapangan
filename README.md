@@ -95,9 +95,13 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
  
 <div align="justify">
 - Paket R yang digunakan:
+ 
  * library(rvest) : Tools untuk scraping dengan cara parsing HTML dari suatu laman HTML. 
+ 
  * library(tidyverse) : membantu dalam manajemen data terutama pada impor dan ekspor data, serta pemodelan dan visualisasi data. Dalam package ini memungkinkan penggunaan operator pipes (%>%) untuk memudahkan dalam memahami script
+ 
  * library(mongolite) : MongoDB client untuk R yang berbasis mongo-c-driver dan jsonlite. Package ini mendukung fungsi agregasi, indexing, map-reduce, streaming, enkripsi,autentikasi, serta GridFS.
+ 
  * library(jsonlite) : untuk membaca file JSON
  
  Targeted Data:
@@ -109,8 +113,12 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
  * Kenaikan (%)
  Langkah untuk mendapatkan target data adalah :
  
+ <div align="center">
  <img width="500" alt="inspect" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/a82fdc57-9ad0-475f-8fe9-5d89d50f1da0">
-
+  
+  Inspect element pada Google Chrome
+ </div>
+ 
  1. Klik kanan → Pilih Inspect
  2. Klik tab Network →Klik Fetch/XHR → Refresh halaman web 
  3. Copy Link → Paste Link di tab baru
