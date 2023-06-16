@@ -86,11 +86,16 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
 <div align="justify">
 - Paket R yang digunakan:
 * library(rvest) : Tools untuk scraping dengan cara parsing HTML dari suatu laman HTML. 
+ 
 * library(tidyverse) : membantu dalam manajemen data terutama pada impor dan ekspor data, serta pemodelan dan visualisasi data. Dalam package ini memungkinkan penggunaan  
   operator pipes (%>%) untuk memudahkan dalam memahami script
+ 
 * library(mongolite) : MongoDB client untuk R yang berbasis mongo-c-driver dan jsonlite. Package ini mendukung fungsi agregasi, indexing, map-reduce, streaming, enkripsi,
   autentikasi, serta GridFS.
+ 
 * library(jsonlite) : untuk membaca file JSON
+ 
+ Untuk melihat syntax secara lengkap bisa dilihat [disini] ("https://github.com/Rekaagustia/hargapangan/blob/main/scrape_hargapangan.R")
  berikut adalah tampilan data harga pangan yang sudah diproses : 
   </div>
  
