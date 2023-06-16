@@ -24,6 +24,8 @@
  
 ## :memo: Tentang Data Pangan dan Scrapping 
  
+*Project* ini merupakan integrasi antara **R - MongoDB Atlas - Python** yang meliputi *scraping* data dengan `rvest` pada R. Data yang digunakan pada project ini adalah harga pangan. Data tersebut diperoleh dari hasil scrapping dan google dengan link: https://hargapangan.id/
+ 
 Pangan menurut Undang-Undang Republik Indonesia nomor 18 tahun 2012 adalah segala sesuatu yang berasal dari sumber hayati produk pertanian, perkebunan, kehutanan, perikanan, perternakan, perairan, dan air baik yang diolahmaupun tidak dioleh yang diperuntukkan sebagai makanan atau minuman bagi konsumsi manusia, termasuk nahan tangan pangan, bahan baku pangan, bahan lainnya yang digunakan dalam proses penyiapan,pengolahan, dan/atau pembuatan makanan atau minuman.
 </div>
 
@@ -32,7 +34,15 @@ Scraping web adalah salah satu teknik pengambilan data semi terstruktur dari int
 </div>
 
 <div align="justify">
-Data yang digunakan pada project ini adalah harga pangan. Data tersebut diperoleh dari hasil scrapping dan google dengan link: https://hargapangan.id/
+Secara teknis, ada beberapa pendekatan untuk melakukan web scraping, diantaranya:
+1. Parsing HTML dari suatu laman web menggunakan CSS selector. Merupakan cara yang umum digunakan dan biasanya dapat dilakukan untuk banyak website.
+2. Schema JSON linked data dan JavaScript variable.
+3. XHR (XML HTTP Requests)
+</div>
+
+<div align="justify">
+Catatan: web scrapping adalah teknik yang sangat berguna untuk mendapatkan informasi dari Internet, tetapi dapat menyebabkan masalah pada beberapa situs web. Karena itu, web scarapping harus dilakukan dengan sangat hati-hati dan etis. Sebelum melakukan web crawling, sebaiknya cek terlebih dahulu apakah website tersebut memiliki file robots.txt atau tidak, untuk melihat apakah bisa di scrap pada halaman yang diinginkan. File robots.txt dapat diakses di nama-domain/robots.txt, misalnya https://www.hargapangan.id/robots.txt.
+
 </div>
 
 <div align="justify">
@@ -85,6 +95,7 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
  
 <div align="justify">
 - Paket R yang digunakan:
+ 
 * library(rvest) : Tools untuk scraping dengan cara parsing HTML dari suatu laman HTML. 
  
 * library(tidyverse) : membantu dalam manajemen data terutama pada impor dan ekspor data, serta pemodelan dan visualisasi data. Dalam package ini memungkinkan penggunaan  
@@ -95,7 +106,7 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
  
 * library(jsonlite) : untuk membaca file JSON
  
- Untuk melihat syntax secara lengkap bisa dilihat [disini] ("https://github.com/Rekaagustia/hargapangan/blob/main/scrape_hargapangan.R")
+ Untuk melihat syntax secara lengkap bisa dilihat [disini](#https://github.com/Rekaagustia/hargapangan/blob/main/scrape_hargapangan.R)
  berikut adalah tampilan data harga pangan yang sudah diproses : 
   </div>
  
