@@ -30,10 +30,12 @@ Pangan menurut Undang-Undang Republik Indonesia nomor 18 tahun 2012 adalah segal
 </div>
 
 <div align="justify">
+ 
 Scraping web adalah salah satu teknik pengambilan data semi terstruktur dari internet pada umumnya berupa halaman website dalam bahasa HTML atau XTML, untuk mempermudah mengambil data dari sebuah website secara otomatis tanpa perlu menyalin data secara manual dan menganalisa dokumen tersebut untuk diambil data tertentu dari halaman website yang digunakan untuk kepentingan lain. (Turland, 2010). 
 </div>
 
 <div align="justify">
+ 
 Secara teknis, ada beberapa pendekatan untuk melakukan web scraping, diantaranya:
 1. Parsing HTML dari suatu laman web menggunakan CSS selector. Merupakan cara yang umum digunakan dan biasanya dapat dilakukan untuk banyak website.
 2. Schema JSON linked data dan JavaScript variable.
@@ -41,6 +43,7 @@ Secara teknis, ada beberapa pendekatan untuk melakukan web scraping, diantaranya
 </div>
 
 <div align="justify">
+ 
 Catatan: web scrapping adalah teknik yang sangat berguna untuk mendapatkan informasi dari Internet, tetapi dapat menyebabkan masalah pada beberapa situs web. Karena itu, web scarapping harus dilakukan dengan sangat hati-hati dan etis. Sebelum melakukan web crawling, sebaiknya cek terlebih dahulu apakah website tersebut memiliki file robots.txt atau tidak, untuk melihat apakah bisa di scrap pada halaman yang diinginkan. File robots.txt dapat diakses di nama-domain/robots.txt, misalnya https://www.hargapangan.id/robots.txt.
 
 </div>
@@ -111,6 +114,7 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
  * Harga
  * Denom
  * Kenaikan (%)
+ 
  Langkah untuk mendapatkan target data adalah :
  
  <div align="center">
@@ -140,7 +144,7 @@ Pada project ini  menggunakan beberapa fungsi rvest. Tentu saja, ada fungsi-fung
  
   <div align="center">
    
- <img width="500" alt="tampilan data" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/e0ef1feb-ffe9-4635-8b43-ef050aee210f">
+ <img width="700" alt="tampilan data" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/e0ef1feb-ffe9-4635-8b43-ef050aee210f">
    
   Data Harga Pangan
  </div>
