@@ -113,7 +113,7 @@ Pada grafik diatas dapat dilihat bahwa untuk beberapa hari ini harga komuditas p
  </div>
   
  <div align="center">
- <img width="902" alt="naik" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/6c87f1f0-545b-4d22-80c5-252e772113be">
+ <img width="500" alt="naik" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/6c87f1f0-545b-4d22-80c5-252e772113be">
   
  </div>
  
