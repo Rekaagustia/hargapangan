@@ -1,14 +1,13 @@
-name: hargapangan
+name: scrape_hargapangan
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # setiap 30 menit sekali
+    - cron: '*/30 * * * *'
   workflow_dispatch:
-
-
+    
 jobs:
-   hargapangan-scrape:
-     runs-on: macOS-latest
+  hargapangan-scrape:
+    runs-on: macOS-latest
     env:
       ATLAS_URL: ${{ secrets.ATLAS_URL }}
       ATLAS_COLLECTION: ${{ secrets.ATLAS_COLLECTION }}
@@ -23,7 +22,7 @@ jobs:
         install.packages("rvest", dependencies = TRUE)
         install.packages("tidyverse", dependencies = TRUE)
         install.packages("mongolite")
-        install.packages("jsonlite")
+        install.package("jsonlite")
       shell: Rscript {0} 
-   - name: Scrape data hargapangan
+   - name: Scrape Data Harga Pangan
      run: Rscript scrape_hargapangan.R
