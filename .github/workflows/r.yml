@@ -7,7 +7,7 @@ on:
 
 
 jobs:
-  scrape_hargapangan:
+   hargapangan-scrape:
      runs-on: macOS-latest
     env:
       ATLAS_URL: ${{ secrets.ATLAS_URL }}
