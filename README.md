@@ -3,7 +3,7 @@
 <img width="150" alt="pangan" src="https://github.com/Rekaagustia/harga_pangan/assets/39205545/08255e8f-8598-436a-bd8b-dddd53e5d0c5.png">
 
 # hargapangan
-
+[![scrape_hargapangan](https://github.com/Rekaagustia/hargapangan/actions/workflows/r.yml/badge.svg)](https://github.com/Rekaagustia/hargapangan/actions/workflows/r.yml)
 
 • [Tentang Data Pangan dan Scrapping](#memo-tentang-data-base-my-skincare)
 • [Demo](#video_camera-demo)
