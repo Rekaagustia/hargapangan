@@ -93,7 +93,37 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
  "Kenaikan (%)":"Harga Tetap"}
 
 ```
+ <div align="center">
+<img width="500" alt="kenaikan" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/256495ee-e9b8-4430-9e9e-c28ad854d87f">
+  
+ </div>
+ 
+ <div align="justify">
+Pada grafik diatas dapat dilihat bahwa untuk beberapa hari ini harga komuditas pangan memiliki harga yang tetap, selanjutnya kenaikan yang paling tinggi adalah sebesar rp 50/kg, selanjutnya untuk harga kenaikan tertinggi adalah Rp.650 atau 1.63% dari harga sebelumnya.
+  </div>
+  
+ <div align="center">
+ <img width="500" alt="komuditas" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/29628a59-b32d-4fe4-a704-e7f47f0c70bf">
+  
+ </div>
+  
+ <div align="justify">
+  
+ Untuk grafik diatas dapat dilihat bahwa kenaikan harga disemua provinsi terjadi pada komuditas Bawang Merah Ukuran Sedang  dan Daging Sapi Kualitas 1. untuk harga turun komuditasnya adalah Daging Sapi Kualitas 2.
+ </div>
+  
+ <div align="center">
+ <img width="902" alt="naik" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/6c87f1f0-545b-4d22-80c5-252e772113be">
+  
+ </div>
+ 
+ <div align="justify">
+ dan grafik terakhir dapat dilihat bahwa pada umumnya harga pangan naik dari harga sebelumnya, dan untuk harga pangan yang turun sangat sedikit. 
+ </div>
 
+
+
+ 
 ## :video_camera: Requirements
  
 <div align="justify">
