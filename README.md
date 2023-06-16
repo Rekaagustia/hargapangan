@@ -40,9 +40,12 @@ Data yang digunakan pada project ini adalah harga pangan. Data tersebut diperole
 
 
 ## :camera_flash: Screenshot
+ 
 <div align="center">
 <img width="500" alt="web pangan" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/9966b047-46d8-4ec2-9e1a-7b3c7104b5ac">
+
  Harga pangan
+ 
  </div>
  
 <div align="justify">
@@ -58,8 +61,11 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
 
 ## :blue_book: Dokumentasi 
  berikut adalah dokumentasi  hasil Input (Create Methods) ke MongoDB Atlas.
+ 
  <div align="center">
+  
  <img width="500" alt="mongo atlas" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/8f111635-3ea7-4117-9eeb-1ddd5014ba8f">
+  
  Tampilan MongoDB Atlas
   </div>
  
@@ -89,7 +95,9 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
   </div>
  
   <div align="center">
+   
  <img width="500" alt="tampilan data" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/e0ef1feb-ffe9-4635-8b43-ef050aee210f">
+   
   Data Harga Pangan
  </div>
  
