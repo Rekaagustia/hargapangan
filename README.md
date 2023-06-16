@@ -95,18 +95,38 @@ Tampilan ini menunjukkan data level harga pada tanggal observasi paling terkini 
  
 <div align="justify">
 - Paket R yang digunakan:
+ * library(rvest) : Tools untuk scraping dengan cara parsing HTML dari suatu laman HTML. 
+ * library(tidyverse) : membantu dalam manajemen data terutama pada impor dan ekspor data, serta pemodelan dan visualisasi data. Dalam package ini memungkinkan penggunaan operator pipes (%>%) untuk memudahkan dalam memahami script
+ * library(mongolite) : MongoDB client untuk R yang berbasis mongo-c-driver dan jsonlite. Package ini mendukung fungsi agregasi, indexing, map-reduce, streaming, enkripsi,autentikasi, serta GridFS.
+ * library(jsonlite) : untuk membaca file JSON
  
-* library(rvest) : Tools untuk scraping dengan cara parsing HTML dari suatu laman HTML. 
+ Targeted Data:
+ * Prov_id
+ * Status
+ * Jenis Pangan
+ * Harga
+ * Denom
+ * Kenaikan (%)
+ Langkah untuk mendapatkan target data adalah :
  
-* library(tidyverse) : membantu dalam manajemen data terutama pada impor dan ekspor data, serta pemodelan dan visualisasi data. Dalam package ini memungkinkan penggunaan  
-  operator pipes (%>%) untuk memudahkan dalam memahami script
+ <img width="500" alt="inspect" src="https://github.com/Rekaagustia/hargapangan/assets/39205545/a82fdc57-9ad0-475f-8fe9-5d89d50f1da0">
+
+ 1. Klik kanan → Pilih Inspect
+ 2. Klik tab Network →Klik Fetch/XHR → Refresh halaman web 
+ 3. Copy Link → Paste Link di tab baru
+ 4. Klik Tab Elements
  
-* library(mongolite) : MongoDB client untuk R yang berbasis mongo-c-driver dan jsonlite. Package ini mendukung fungsi agregasi, indexing, map-reduce, streaming, enkripsi,
-  autentikasi, serta GridFS.
+ Untuk melihat syntax secara lengkap bisa dilihat [disini](https://github.com/Rekaagustia/hargapangan/blob/main/scrape_hargapangan.R).
  
-* library(jsonlite) : untuk membaca file JSON
+Pada project ini  menggunakan beberapa fungsi rvest. Tentu saja, ada fungsi-fungsi lain yang bisa digunakan sesuai keperluan, di antaranya:
+
+ * html_attr dan html_httrs : untuk ekstrak atribut, teks dan tag
+ * html_element : memilih node atau element HTML berdasarkan CSS selector atau xpath
+ * html_table : untuk parsing tabel HTML menjadi data frame
+ * html_form : parsing form
+ * html_text :  Mengekstrak teks dari elemen HTML terpilih 
+
  
- Untuk melihat syntax secara lengkap bisa dilihat [disini](#https://github.com/Rekaagustia/hargapangan/blob/main/scrape_hargapangan.R)
  berikut adalah tampilan data harga pangan yang sudah diproses : 
   </div>
  
