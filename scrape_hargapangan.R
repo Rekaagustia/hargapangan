@@ -15,7 +15,6 @@ nama_provinsi <- pricelist_province_id %>% html_elements('option') %>% html_text
 id_provinsi <- pricelist_province_id %>% html_elements('option') %>% html_attr('value') 
 
 url1 <- "https://hargapangan.id/index.php?option=com_gtpihps&task=json.commodityPrices&price_type_id=1&_=1684563837426&province_id="
-url <- paste0(url1, i)
 response <- fromJSON(url1)
 
 
