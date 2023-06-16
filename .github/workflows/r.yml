@@ -25,4 +25,5 @@ jobs:
         install.packages("mongolite")
         install.packages("jsonlite")
       shell: Rscript {0} 
-        run: Rscript scrape_hargapangan.R
+   - name: Scrape data hargapangan
+     run: Rscript scrape_hargapangan.R
