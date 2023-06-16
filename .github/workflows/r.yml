@@ -2,12 +2,12 @@ name: hargapangan
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # setiap 6 jam sekali
+    - cron: '*/30 * * * *'  # setiap 30 menit sekali
   workflow_dispatch:
 
 
 jobs:
-  covid-scrape:
+  scrape_hargapangan:
     runs-on: macos-latest
     env:
       ATLAS_URL: ${{ secrets.ATLAS_URL }}
